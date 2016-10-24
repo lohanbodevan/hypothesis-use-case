@@ -10,6 +10,7 @@ from example import sum_numbers
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger('HYPOTHESIS')
 
+
 class TestEncoding(unittest.TestCase):
 
     @given(st.integers(), st.integers())

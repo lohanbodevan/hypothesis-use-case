@@ -1,4 +1,4 @@
-# Hypothesis use case
+# Hypothesis use case <a href="https://travis-ci.org/lohanbodevan/hypothesis-use-case"><img alt="Travis Status" src="https://travis-ci.org/lohanbodevan/hypothesis-use-case.svg?branch=master"></a>
 
 This is a simple example to show how to use [Hyposthesis](https://hypothesis.readthedocs.io/en/latest/index.html) library to generates random data to your tests.
 
