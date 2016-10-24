@@ -1,6 +1,6 @@
-# Hypothesis example
+# Hypothesis use case
 
-This is a simple example to show how to use [Hyposthesis](https://hypothesis.readthedocs.io/en/latest/index.html) library that generates random data to your tests.
+This is a simple example to show how to use [Hyposthesis](https://hypothesis.readthedocs.io/en/latest/index.html) library to generates random data to your tests.
 
 ## Install
 ```
@@ -16,8 +16,7 @@ Just one unit test like this:
 ```
     @given(st.integers(), st.integers())
     def test_ints_sum(self, x, y):
-        logging.basicConfig(level=logging.INFO)
-        logging.getLogger('HYPOTHESIS').info('Testing {} plus {}'.format(x, y))
+        log.info('Testing {} plus {}'.format(x, y))
 
         assert x + y == sum_numbers(x, y)
 ```
