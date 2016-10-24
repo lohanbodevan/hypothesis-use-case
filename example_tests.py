@@ -7,7 +7,7 @@ import hypothesis.strategies as st
 from example import sum_numbers
 
 
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger('HYPOTHESIS')
 
 

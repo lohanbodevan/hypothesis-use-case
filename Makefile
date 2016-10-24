@@ -1,5 +1,5 @@
 test:
-	python -m example_tests
+	venv/bin/python -m example_tests
 
 flake8:
 	venv/bin/flake8 --max-line-length=119 --exclude=venv .
