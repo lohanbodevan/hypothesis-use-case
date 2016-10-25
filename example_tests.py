@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger('HYPOTHESIS')
 
 
-class TestEncoding(unittest.TestCase):
+class TestSumNumbers(unittest.TestCase):
 
     @given(st.integers(), st.integers())
     def test_ints_sum(self, x, y):
